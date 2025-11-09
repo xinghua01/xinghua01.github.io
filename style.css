@@ -150,14 +150,14 @@ nav a:hover {
     margin-top: 15px;
 }
 
-/* --- News & Honors 板块 (列表) [已修改] --- */
+/* --- News & Honors 板块 (列表) [最终版] --- */
 #news ul {
-    list-style: none;  /* [修改] 移除 News 的默认黑点 */
-    padding-left: 5px; /* [修改] 调整左边距, 让 🎉 对齐 */
+    list-style: none;  /* 移除 News 的默认黑点 */
+    padding-left: 5px; /* 调整左边距, 让 🎉 对齐 */
 }
 
 #honors ul {
-    list-style: disc;  /* [修改] 保留 Honors 的默认黑点 */
+    list-style: disc;  /* 保留 Honors 的默认黑点 */
     padding-left: 25px;
 }
 
