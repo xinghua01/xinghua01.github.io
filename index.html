@@ -4,11 +4,14 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Hua Xing (邢华) - 个人主页</title>
+    <!-- 你的 style.css 文件 -->
     <link rel="stylesheet" href="style.css">
+    <!-- 引入 Font Awesome 图标库 (用于邮件图标) -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
 </head>
 <body>
 
+    <!-- 1. 顶部固定导航栏 -->
     <nav>
         <ul>
             <li><a href="#about">About</a></li>
@@ -18,11 +21,14 @@
         </ul>
     </nav>
 
+    <!-- 2. 主内容容器 -->
     <div class="container">
 
+        <!-- 3. 关于我 (About Me) 卡片 -->
         <section id="about" class="card">
             <h2>About Me</h2>
             <div class="about-content">
+                <!-- 你的 profile.jpg -->
                 <img src="profile.jpg" alt="邢华 (Hua Xing)" class="profile-pic">
                 
                 <div class="bio">
@@ -35,11 +41,14 @@
                     </p>
                     <div class="links">
                         <a href="mailto:xinghua2023@163.com"><i class="fas fa-envelope"></i> xinghua2023@163.com</a>
-                        </div>
+                        <!-- 你可以按此格式添加其他链接 -->
+                        <!-- <a href="#"><i class="fas fa-graduation-cap"></i> Google Scholar</a> -->
+                    </div>
                 </div>
             </div>
         </section>
 
+        <!-- 4. 新闻 (News) 卡片 (带 🎉 图标) -->
         <section id="news" class="card">
             <h2><span class="icon">🔔</span> News</h2>
             <ul>
@@ -54,10 +63,12 @@
             </ul>
         </section>
 
+        <!-- 5. 科研成果 (Publications) 卡片 [已更新链接] -->
         <section id="publications" class="card">
             <h2>Publications</h2>
             <p class="subtitle">(*: first author, †: first student author - 请根据实际情况修改)</p>
 
+            <!-- [已更新] 对应 "场景图.jpg" -->
             <div class="publication-item">
                 <img src="paper_dynamic_resource.jpg" alt="Dynamic Resource Allocation" class="pub-thumbnail">
                 <div class="pub-content">
@@ -65,12 +76,13 @@
                     <p class="authors"><strong>Xing H*</strong>, Xu J, et al.</p>
                     <p class="venue"><em>Security and Communication Networks</em>. (<strong>第一作者, CCF C</strong>)</p>
                     <div class="links">
-                        <a href="#" class="paper-link">[Paper]</a>
+                        <a href="https://www.researchgate.net/publication/363184233_Dynamic_Resource_Allocation_and_Task_Offloading_for_NOMA-Enabled_IoT_Services_in_MEC" target="_blank" class="paper-link">[Paper]</a>
                         <a href="#" class="paper-link">[Bibtex]</a>
                     </div>
                 </div>
             </div>
             
+            <!-- [已更新] 对应 "UAV_5G.pdf" -->
             <div class="publication-item">
                 <img src="paper_uav_game.jpg" alt="Game-Based Channel Selection" class="pub-thumbnail">
                 <div class="pub-content">
@@ -78,12 +90,13 @@
                     <p class="authors">Chen Y, <strong>Xing H†</strong>, et al.</p>
                     <p class="venue"><em>Security and Communication Networks</em>, 2022. (<strong>第一学生作者, CCF C</strong>)</p>
                     <div class="links">
-                        <a href="https://doi.org/10.1155/2022/4827956" target="_blank" class="paper-link">[Paper]</a>
+                        <a href="https://onlinelibrary.wiley.com/doi/pdf/10.1155/2022/4827956" target="_blank" class="paper-link">[Paper]</a>
                         <a href="#" class="paper-link">[Bibtex]</a>
                     </div>
                 </div>
             </div>
 
+            <!-- [已更新] 对应 "senserio1.jpg" -->
             <div class="publication-item">
                 <img src="paper_cost_efficient.jpg" alt="Cost-Efficient Edge Caching" class="pub-thumbnail">
                 <div class="pub-content">
@@ -91,12 +104,13 @@
                     <p class="authors">Chen Y, <strong>Xing H†</strong>, et al.</p>
                     <p class="venue"><em>China Communications</em>. (<strong>第一学生作者, 科技卓越期刊</strong>)</p>
                     <div class="links">
-                        <a href="#" class="paper-link">[Paper]</a>
+                        <a href="https://ieeexplore.ieee.org/document/10670194" target="_blank" class="paper-link">[Paper]</a>
                         <a href="#" class="paper-link">[Bibtex]</a>
                     </div>
                 </div>
             </div>
 
+            <!-- [已更新] 对应 "senserio.jpg" -->
             <div class="publication-item">
                 <img src="paper_data_scheduling.jpg" alt="Data scheduling and resource allocation" class="pub-thumbnail">
                 <div class="pub-content">
@@ -104,12 +118,13 @@
                     <p class="authors">(合著作者)</p>
                     <p class="venue"><em>Wireless Networks</em>, 1-11, 2023.</p>
                     <div class="links">
-                        <a href="#" class="paper-link">[Paper]</a>
+                        <a href="https://link.springer.com/article/10.1007/s11276-023-03563-7" target="_blank" class="paper-link">[Paper]</a>
                         <a href="#" class="paper-link">[Bibtex]</a>
                     </div>
                 </div>
             </div>
 
+            <!-- [已更新] 对应 "Game Theory Based Task Offloading..." (无配图, 保留 placeholder) -->
             <div class="publication-item">
                 <img src="placeholder.png" alt="Publication thumbnail" class="pub-thumbnail">
                 <div class="pub-content">
@@ -117,7 +132,7 @@
                     <p class="authors">(合著作者)</p>
                     <p class="venue"><em>2023 Wireless Communications and Networking Conference (WCNC)</em>. (<strong>CCF C</strong>)</p>
                     <div class="links">
-                        <a href="#" class="paper-link">[Paper]</a>
+                        <a href="https://ieeexplore.ieee.org/document/9817588" target="_blank" class="paper-link">[Paper]</a>
                         <a href="#" class="paper-link">[Bibtex]</a>
                     </div>
                 </div>
@@ -125,6 +140,7 @@
 
         </section>
 
+        <!-- 6. 荣誉 (Honors) 卡片 (带 🏅 图标) -->
         <section id="honors" class="card">
             <h2><span class="icon">🏅</span> Honors</h2>
             <ul>
@@ -137,5 +153,7 @@
             </ul>
         </section>
 
-    </div> </body>
+    </div> <!-- .container 结束 -->
+
+</body>
 </html>
