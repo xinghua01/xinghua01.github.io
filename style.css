@@ -206,12 +206,14 @@ nav a:hover {
     padding-bottom: 0;
 }
 
+/* [已修改] 图片显示方式 */
 .pub-thumbnail {
     width: 180px; /* 缩略图宽度 */
     height: 110px; /* 缩略图高度 (大致比例) */
-    object-fit: cover;
+    object-fit: contain; /* [修改] 改为 'contain' 来显示完整图片 */
     border-radius: 8px;
     border: 1px solid #eee;
+    background-color: #fcfcfc; /* [新增] 为 'contain' 模式添加浅色背景 */
 }
 
 .pub-content {
